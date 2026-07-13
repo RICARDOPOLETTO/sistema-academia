@@ -8,7 +8,7 @@ from streamlit_gsheets import GSheetsConnection
 st.set_page_config(page_title="Controle de Mensalidades & Agenda", layout="wide")
 
 # Link da sua planilha do Google Sheets (Substitua pelo seu link real aqui dentro das aspas)
-URL_PLANILHA = https://docs.google.com/spreadsheets/d/1NGUhDzszsu4gmooYNNCqnwtDY8y2vx9cs6Izwo0gMo4/edit?gid=889713852#gid=889713852
+URL_PLANILHA = "https://docs.google.com/spreadsheets/d/1NGUhDzszsu4gmooYNNCqnwtDY8y2vx9cs6Izwo0gMo4/edit?gid=889713852#gid=889713852"
 
 # Conexão com o Google Sheets
 try:
